@@ -8,7 +8,7 @@ create table factResellerSales(
     PromotionKey INT,
     CurrencyKey INT,
     SalesTerritoryKey VARCHAR(255),
-    SalesOrderNumber INT,
+    SalesOrderNumber VARCHAR(255),
     SalesOrderLineNumber INT,
     RevisionNumber INT,
     OrderQuantity float,
@@ -22,7 +22,7 @@ create table factResellerSales(
     TaxAmt float,
     Freight varchar(255),
     CarrierTrackingNumber varchar (255),
-    CustomerPONumber TIMESTAMP,
+    CustomerPONumber varchar (255),
     OrderDate TIMESTAMP,
     DueDate TIMESTAMP,
     ShipDate TIMESTAMP
