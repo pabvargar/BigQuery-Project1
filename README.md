@@ -1,5 +1,4 @@
 # My First Google BiQuery Project
-#### By Pablo Vargas&copy; 
 
 ## INTRODUCTION
 
@@ -13,17 +12,17 @@ Content covered in the course/project:
 ## FILES IN THIS GITHUB
 
 - README.md
-- Chapter_1_DatabaseSetUp_GCP.md
-- Chapter_2_DatabaseConnection_BigQuery.md
+- [Chapter 1](Chapter_1_DatabaseSetUp_GCP.md)
+- [Chapter 2](Chapter_2_DatabaseConnection_BigQuery.md)
     - createTablesScript.sql
     - Table1_DimCustomer.csv
     - Table2_DimProduct.csv
     - Table3_SalesTerritory.csv
     - Table4_FactResellerSales.csv
-- Chapter_3_ExploratoryAnalysis.md
+- [Chapter 3](Chapter_3_ExploratoryAnalysis.md)
     - Chapter_3_Solution_Exploratory_Analysis.md
-- Chapter_4_BusinessQuestions.mb
-    - Chapter_4_Solution_All_SQL_Explained.md
+- [Chapter 4](Chapter_4_BusinessQuestions.mb)
+    - [Chapter 4 Solution All SQL Explained](Chapter_4_Solution_All_SQL_Explained.md)
     - Chapter_4_SolutionQuestion1.sql
     - Chapter_4_SolutionQuestion2.sql
     - Chapter_4_SolutionQuestion3.sql
