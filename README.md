@@ -1,4 +1,4 @@
-# My First Google BiQuery Project
+# Google BiQuery Project
 
 ## INTRODUCTION
 
@@ -23,7 +23,7 @@ Content covered in the course/project:
     - Chapter_3_Solution_Exploratory_Analysis.md
 - [Chapter 4](Chapter_4_BusinessQuestions.mb)
     - [Chapter 4 Solution All SQL Explained](Chapter_4_Solution_All_SQL_Explained.md)
-    - Chapter_4_SolutionQuestion1.sql
+    - Chapter_4_SolutionQuestion1.sql 
     - Chapter_4_SolutionQuestion2.sql
     - Chapter_4_SolutionQuestion3.sql
     - Chapter_4_SolutionQuestion4.sql
