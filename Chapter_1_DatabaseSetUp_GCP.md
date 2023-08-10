@@ -118,17 +118,32 @@ Database set up process step by step:
 
     );
     ``` 
-    - Screenshot below references the above shell code (only includes factResellerSales creation)
-    ![Alt text](1-1.png)
-    - Check the new Remote database is created in the MySQL instance
-    ![Alt text](2-1.png)
+      - Screenshot below references the above shell code (only includes factResellerSales creation)
+        ![Alt text](screenshot-1.png)
+        - Check the new Remote database is created in the MySQL instance
+        ![Alt text](screenshot-2.png)
 6. Load tables:
     - Download each tab of the assigment google sheet in .csv in your local machine
     - Go to Google Storage 
-    ![Alt text](5-1.png)
+    ![Alt text](screenshot-3.png)
     - Upload the .csv files to [Google Storage Buckets]( https://cloud.google.com/storage/docs/uploading-objects)
-    ![Alt text](image.png)
+    ![Alt text](screenshot-4.png)
     - Go back to to Google SQL>Overview page>Insert
-    ![Alt text](5.2-1.png)
+    ![Alt text](screenshot-5.png)
     - Import the each csv into the correct table inside Remote database (example below FactResellerSales) 
-    ![Alt text](6-1.png)
+    ![Alt text](screenshot-6.png)
+7. Connect Google BigQuery to Google Cloud SQL [(guide)](https://cloud.google.com/bigquery/docs/connect-to-sql)
+    - Go to [IAM](https://cloud.google.com/sql/docs/mysql/users) (Information Access Management) 
+    ![Alt text](screenshot-7.png)
+    - Grant your user Cloud SQL admin and user rights
+    ![Alt text](screenshot-8.png)
+    ![Alt text](screenshot-9.png)
+    -  Go to BigQuery 
+    ![Alt text](screenshot-10.png)
+    - Click on Add>Connections to external data sources
+    ![Alt text](screenshot-11.png)
+    ![Alt text](screenshot-12.png)
+    - Configure the external data source connection as shown below:
+    ![Alt text](<screenshot-13.png>)
+    - Now you can start querying the tables!
+    ![Alt text](screenshot-14.png)
